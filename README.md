@@ -39,9 +39,54 @@ The project was started by an author, who not long time ago formed a dataset tit
 
 ![image](https://github.com/xsoftqa/DataEngineeringProject/assets/69432871/6314bba3-4b24-48e3-b57f-81f6e46e8bd0)
 
+**Data Quality Assessment:**
+
+    **Data Overview:**
+        
+        We check for missing values, duplicate records, and outliers.
+
+    S**tatistical Analysis:**
+        
+        Intension was to perform basic statistical analyses (mean, median, standard deviation) on relevant columns to identify trends and potential issues.
+
+    D**ata Visualization:**
+        
+        The intension was to create visualizations (e.g., histograms, box plots) to understand the distribution of key variables.
+
+    **Correlation Analysis:**
+        
+        Explore correlations between variables to identify relationships.
+
+   **Domain Knowledge:**
+        
+        Leverage any domain knowledge to identify anomalies or unexpected patterns.
+
+
+**Data Transformation Models used:**
+
+    **Pre-processing:**
+        Address missing values and outliers appropriately.
+        Convert categorical variables to numerical format (one-hot encoding, label encoding).
+        Normalize or scale numerical features if necessary.
+
+    **Feature Engineering:**
+        Create new features that might enhance model performance.
+
+    **Model Selection:**
+        Choose appropriate models for the task (regression, time series analysis, etc.).
+
 **Final Result**
 
 Since the RDS was unavailable to complete the final results, going forward one can use local database and use Tableau to generate the final results using the clean data from the batch processing.
+
+**Model Evaluation:**
+        
+        Evaluate the performance of your models using relevant metrics (RMSE for regression, accuracy for classification, etc.).
+
+**Documentation:**
+        
+        Clearly document the entire process, including data cleaning, transformations, and model training.
+
 
 **Pipeline Steps:**
 
@@ -56,7 +101,24 @@ Since the RDS was unavailable to complete the final results, going forward one c
 P**ush Transformed Data Back to s3 Bucket:**
 After the data has been transformed and the predictions have made, we will push the transformed data as a pickle file, including the predictions, to the s3 bucket. This allows for easy access to the processed data and results for future reference.
 
+Final Results:
 
+    
+Infographics:
+
+    Data Pipeline Architecture:
+        
+        Illustrate the flow of data from source to final model, including tools and storage used.
+
+    Results Infographic:
+        Present key metrics and insights derived from the analysis and modeling process.
+
+Code:
+
+Provide a link to your GitHub repository containing:
+
+    Jupyter notebooks or scripts detailing data cleaning, transformation, and modeling steps.
+    README file explaining the repository structure and usage.
 
 
 
