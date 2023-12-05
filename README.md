@@ -131,8 +131,8 @@ Thorough Investigation:
 	
  2	Innovativeness:
  
-	◦	Assessment: Reflect on the innovative aspects of your project. Did you introduce novel methodologies, unique features, or approaches? Consider how your work compares to existing solutions in the field.
-	◦	Recommendations: If your project demonstrates high innovativeness, emphasize the unique aspects in your recommendation. If there's room for improvement, suggest areas where additional innovation can be injected, possibly    through advanced algorithms, novel data sources, or integration with emerging technologies.
+	◦	Assessment: Reflect on the innovative aspects of the project. Did you introduce novel methodologies, unique features, or approaches? Consider how this work compares to existing solutions in the field.
+	◦	Recommendations: If the project demonstrates high innovativeness, emphasize the unique aspects in the recommendation. If there's room for improvement, suggest areas where additional innovation can be injected, possibly    through advanced algorithms, novel data sources, or integration with emerging technologies.
  
  3	Technical and Platform Concerns:
  
