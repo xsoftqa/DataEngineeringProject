@@ -1,3 +1,6 @@
+# Prepared by: Abdul Majid Tahir-Akinyele, Student - 9053-36819
+
+
 # Predicting Future Rice, Wheat, and Corn Prices and Visualizing the Predictions
 Rice, Wheat and Corn Prices Changes Taking into Account Inflation
 
@@ -65,23 +68,28 @@ The project was started by an author, who not long time ago formed a dataset tit
 **Data Transformation Models used:**
 
     **Pre-processing:**
+        
         Address missing values and outliers appropriately.
         Convert categorical variables to numerical format (one-hot encoding, label encoding).
         Normalize or scale numerical features if necessary.
 
     **Feature Engineering:**
+        
         Create new features that might enhance model performance.
 
     **Model Selection:**
-        Choose appropriate models for the task (regression, time series analysis, etc.).
+        
+        We choose appropriate models for the task (regression, time series analysis, etc.).
 
 **Final Result**
 
 Since the RDS was unavailable to complete the final results, going forward one can use local database and use Tableau to generate the final results using the clean data from the batch processing.
 
+The expected final result of this project should have been a predictive model that can forecast future prices of rice, wheat, and corn based on historical data. This model will be capable of generating predictions for a specified time frame into the future. Additionally, the project will produce visualizations of these predictions, allowing stakeholders to understand and interpret the trends easily.
+
 **Model Evaluation:**
         
-        Evaluate the performance of your models using relevant metrics (RMSE for regression, accuracy for classification, etc.).
+        Evaluated the performance of the models using relevant metrics (RMSE for regression, accuracy for classification, etc.).
 
 **Documentation:**
         
@@ -101,24 +109,47 @@ Since the RDS was unavailable to complete the final results, going forward one c
 P**ush Transformed Data Back to s3 Bucket:**
 After the data has been transformed and the predictions have made, we will push the transformed data as a pickle file, including the predictions, to the s3 bucket. This allows for easy access to the processed data and results for future reference.
 
-Final Results:
-
-    
 Infographics:
 
     Data Pipeline Architecture:
         
-        Illustrate the flow of data from source to final model, including tools and storage used.
+        Tools, Technologies and Architecture section above illustrates the flow of data from source to final model, including tools and storage used.
 
     Results Infographic:
-        Present key metrics and insights derived from the analysis and modeling process.
+        
+        Intension was to present key metrics and insights derived from the analysis and modeling process.
 
-Code:
+Thorough Investigation:
 
-Provide a link to your GitHub repository containing:
+ 1	Viability Assessment:
+ 
+	◦	Conclusions: Assess the feasibility of scaling the project by evaluating the computational resources, data volume, and model complexity. If the current solution proves scalable, this is a positive outcome. If not, identify
+ 
+ potential bottlenecks and challenges.
+ 
+	◦	Recommendations: If scalability is an issue, consider distributed computing solutions, cloud platforms, or optimizations in the data pipeline. Provide specific recommendations for infrastructure upgrades or changes.
+	
+ 2	Innovativeness:
+ 
+	◦	Assessment: Reflect on the innovative aspects of your project. Did you introduce novel methodologies, unique features, or approaches? Consider how your work compares to existing solutions in the field.
+	◦	Recommendations: If your project demonstrates high innovativeness, emphasize the unique aspects in your recommendation. If there's room for improvement, suggest areas where additional innovation can be injected, possibly    through advanced algorithms, novel data sources, or integration with emerging technologies.
+ 
+ 3	Technical and Platform Concerns:
+ 
+	◦	Identify Concerns: Discuss any technical challenges or platform-specific concerns encountered during the project. This could include issues related to data compatibility, processing speed, or model deployment.
+	◦	Mitigation Strategies: Propose mitigation strategies for each concern. This might involve adopting different tools, refining data preprocessing steps, or exploring alternative platforms.
+	
+ 4 Difficulties and Limitations:
+ 
+	◦	Technical Limitations: Acknowledge any limitations in the model's performance, such as challenges in predicting certain patterns or limitations in handling specific data types.
+	◦	Platform Limitations: Discuss limitations related to the chosen platform, including any constraints in terms of data storage, processing speed, or scalability.
+	◦	Next Steps for Improvement: Outline steps to address these difficulties and limitations, including potential research directions or areas for further development.
+	
+ 5	Next Steps for Scaling:
 
-    Jupyter notebooks or scripts detailing data cleaning, transformation, and modeling steps.
-    README file explaining the repository structure and usage.
+ 
+	◦	Optimization Opportunities: Highlight potential areas for optimization in the existing pipeline. This might involve algorithmic improvements, parallel processing, or more efficient data storage solutions.
+	◦	Scalability Enhancements: Propose specific steps for enhancing scalability, such as transitioning to a cloud-based infrastructure, adopting parallel processing techniques, or leveraging distributed computing frameworks.
+	◦	Continuous Monitoring: Recommend the implementation of monitoring systems to track the performance of the scaled-up solution. This ensures that any issues can be identified and addressed promptly.
 
-
-
+In summary, the Thorough Investigation should provide a holistic view of the project's viability, innovativeness, technical concerns, and a roadmap for scaling. It should equip technical leadership with actionable recommendations for refining and expanding the project.
