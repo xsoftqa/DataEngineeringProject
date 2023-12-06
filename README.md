@@ -1,3 +1,4 @@
+# Owner: Abdul Majid Tahir-Akinyele
 
 # Prepared by: Abdul Majid Tahir-Akinyele, Student - 9053-36819
 
